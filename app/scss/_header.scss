@@ -1,0 +1,27 @@
+.header{
+
+    &__menu { //mobile menu
+
+        span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkBlue;
+
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+    }
+    
+    nav {
+        padding: 24px;
+    }
+
+    &__links{
+
+        a{
+            font-size: $font-sm;
+        }
+    }
+}
